@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{ecd10225-ca75-465e-9093-778e5caf8875}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreUObject">
+      <UniqueIdentifier>{69e89b95-8f76-4e16-ae00-286953640843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreUObject">
+      <UniqueIdentifier>{03e79ee4-4f46-479d-a47e-68ba22743ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{598ea3bb-58c8-4660-be34-ce79051923f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{6e10d618-0a6f-4830-9ce5-966d9be14857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\UObject">
+      <UniqueIdentifier>{303ed9b9-c55e-4392-8ff7-b74c071f3a27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\UObject">
+      <UniqueIdentifier>{7014f8e2-4540-420b-bdcb-678251782b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Containers">
+      <UniqueIdentifier>{29ed799c-d893-487b-923f-3c6177247d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core\Containers">
+      <UniqueIdentifier>{2f11480d-00af-4020-b03d-a73f8626f9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CoreUObject\UObject">
+      <UniqueIdentifier>{6e0d0935-23da-4a73-a6c9-3fa079d9c773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CoreUObject\UObject">
+      <UniqueIdentifier>{b947d5c6-1390-4fb4-8ede-8034859f48d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\formatting">
+      <UniqueIdentifier>{752a5386-1e2d-4327-8b5d-20149e1fb60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\formatting">
+      <UniqueIdentifier>{fcdd3a2b-dbdb-44f8-b68d-77cdbb5be532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core\Templates">
+      <UniqueIdentifier>{2fa29675-9313-4be4-8cd9-17e606da04f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\offsets">
+      <UniqueIdentifier>{fe73cb59-5241-4721-a512-4d1b99b0ccc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\offsets">
+      <UniqueIdentifier>{e64f9170-a50b-444c-a60f-989a52f20423}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\memory.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UObject\NameTypes.h">
+      <Filter>Header Files\Core\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\UnrealString.h">
+      <Filter>Header Files\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\Array.h">
+      <Filter>Header Files\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\ObjectMacros.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\UObjectArray.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\UObjectHash.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\Class.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\Script.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\UObjectBase.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\UObjectBaseUtility.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\UnrealTypePrivate.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="buildSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\Object.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\Field.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="formatting\sdk.h">
+      <Filter>Header Files\formatting</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\Set.h">
+      <Filter>Header Files\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Containers\Map.h">
+      <Filter>Header Files\Core\Containers</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Templates\Tuple.h">
+      <Filter>Header Files\Core\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\PersistentObjectPtr.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\WeakObjectPtr.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreUObject\UObject\FastReferenceCollectorOptions.h">
+      <Filter>Header Files\CoreUObject\UObject</Filter>
+    </ClInclude>
+    <ClInclude Include="formatting\formatting.h">
+      <Filter>Header Files\formatting</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets\CoreUObject.h">
+      <Filter>Header Files\offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets\analyze.h">
+      <Filter>Header Files\offsets</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UObject\NameTypes.cpp">
+      <Filter>Source Files\Core\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Containers\UnrealString.cpp">
+      <Filter>Source Files\Core\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Containers\Array.cpp">
+      <Filter>Source Files\Core\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\UObjectHash.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\UObjectArray.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\ObjectMacros.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\Class.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\Script.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\UObjectBase.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\UObjectBaseUtility.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\UnrealTypePrivate.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\Object.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\Field.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="formatting\sdk.cpp">
+      <Filter>Source Files\formatting</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Containers\Set.cpp">
+      <Filter>Source Files\Core\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\PersistentObjectPtr.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\WeakObjectPtr.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreUObject\UObject\FastReferenceCollectorOptions.cpp">
+      <Filter>Source Files\CoreUObject\UObject</Filter>
+    </ClCompile>
+    <ClCompile Include="formatting\formatting.cpp">
+      <Filter>Source Files\formatting</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets\CoreUObject.cpp">
+      <Filter>Source Files\offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="offsets\analyze.cpp">
+      <Filter>Source Files\offsets</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
