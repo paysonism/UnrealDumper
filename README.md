@@ -28,4 +28,4 @@ To use the source, simply build the source as release. This will place a dll in 
 
 ## Credits
 
-Made By [Payson](https://github.com/paysonism)
+Made By [Payson](https://github.com/paysonism) and the [EZFN Dev Team](https://github.com/EZFNDEV)
